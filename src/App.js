@@ -455,20 +455,33 @@ export default function App() {
         }}
         className="section2"
       >
-          <div>
-            <img
-              src={DeadPlant}
-              alt="dead plant"
-              style={{ width: "500px", height: "350px" }}
-            />
-          </div>
-          <div>
-            <img
-              src={Gopher}
-              alt="gopher"
-              style={{ width: "500px", height: "350px" }}
-            />
-          </div>
+        <div>
+          <img
+            src={DeadPlant}
+            alt="dead plant"
+            style={{ width: "500px", height: "350px" }}
+          />
+        </div>
+        <div>
+          <img
+            src={Gopher}
+            alt="gopher"
+            style={{ width: "500px", height: "350px" }}
+          />
+        </div>
+      </div>
+      {/* Start of CTA 2 */}
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          background: "whitesmoke",
+        }}
+        className="sectioncta2"
+      >
+        <h1>
+          "The love of gardening is a seed once sown that never dies."
+        </h1>
       </div>
     </div>
   );
