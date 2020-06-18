@@ -1,2 +1,2 @@
-# plantasy
-Plantasy App
+# Plantasy App
+Plantasy Life (Grow, Harvest, Cook, Arrange)
