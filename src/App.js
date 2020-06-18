@@ -19,6 +19,10 @@ import Cook from "./images/cook.jpg";
 import Prepare from "./images/prepare.jpg";
 import Drink from "./images/drink.jpg";
 import Alcohol from "./images/alcohol.jpg";
+import Arrange from "./images/arrange.jpg";
+import Arrange2 from "./images/arrange2.jpg";
+import Gopher from "./images/gopher.jpg";
+import DeadPlant from "./images/deadplant.jpg";
 
 const useStyles = makeStyles((theme) => ({
   "@global": {
@@ -222,11 +226,22 @@ export default function App() {
           </Container>
         </div>
       </div>
-
+      <br></br>
+      <br style={{ margin: "4%", marginTop: "8%" }} />
       <h1 className={classes.h1}> Point System </h1>
-      <div style={{ display: "flex", justifyContent: "space-between",backgroundColor:"#4E4E4E", marginTop: ".5%", marginBottom: "1%"}}>
-        <h2 style={{marginLeft: "6%", color: "white"}}>Grow from Seed</h2>
-        <h2 style={{color: "limegreen",marginRight: "6%", }}>+10 Points</h2>
+      <br></br>
+      <br></br>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          backgroundColor: "#4E4E4E",
+          marginTop: ".5%",
+          marginBottom: "1%",
+        }}
+      >
+        <h2 style={{ marginLeft: "1%", color: "white" }}>Grow from Seed</h2>
+        <h2 style={{ color: "limegreen", marginRight: "1%" }}>+10 Points</h2>
       </div>
 
       {/* Start of Grow*/}
@@ -243,7 +258,7 @@ export default function App() {
           <img
             src={Grow}
             alt="growing pic"
-            style={{ width: "500px", height: "300px" }}
+            style={{ width: "500px", height: "350px" }}
           />
         </div>
 
@@ -251,14 +266,22 @@ export default function App() {
           <img
             src={Grow2}
             alt="growing pic"
-            style={{ width: "500px", height: "300px" }}
+            style={{ width: "500px", height: "350px" }}
           />
         </div>
       </div>
 
-      <div style={{ display: "flex", justifyContent: "space-between",backgroundColor:"#4E4E4E", marginTop: ".5%", marginBottom: "1%"}}>
-        <h2 style={{marginLeft: "6%", color: "white"}}>Harvest</h2>
-        <h2 style={{color: "limegreen",marginRight: "6%", }}>+10 Points</h2>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          backgroundColor: "#4E4E4E",
+          marginTop: ".5%",
+          marginBottom: "1%",
+        }}
+      >
+        <h2 style={{ marginLeft: "1%", color: "white" }}>Harvest</h2>
+        <h2 style={{ color: "limegreen", marginRight: "1%" }}>+10 Points</h2>
       </div>
 
       {/* Start of Harvest */}
@@ -276,7 +299,7 @@ export default function App() {
             <img
               src={Harvest}
               alt="harvest pic"
-              style={{ width: "500px", height: "300px" }}
+              style={{ width: "500px", height: "350px" }}
             />
           </div>
         </div>
@@ -285,14 +308,22 @@ export default function App() {
           <img
             src={Harvest2}
             alt="harvest pic"
-            style={{ width: "500px", height: "300px" }}
+            style={{ width: "500px", height: "350px" }}
           />
         </div>
       </div>
 
-      <div style={{ display: "flex", justifyContent: "space-between",backgroundColor:"#4E4E4E", marginTop: ".5%", marginBottom: "1%"}}>
-        <h2 style={{marginLeft: "6%", color: "white"}}>Cook</h2>
-        <h2 style={{color: "limegreen",marginRight: "6%", }}>+5 Points</h2>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          backgroundColor: "#4E4E4E",
+          marginTop: ".5%",
+          marginBottom: "1%",
+        }}
+      >
+        <h2 style={{ marginLeft: "1%", color: "white" }}>Cook</h2>
+        <h2 style={{ color: "limegreen", marginRight: "1%" }}>+5 Points</h2>
       </div>
 
       {/* Start of Cook*/}
@@ -309,7 +340,7 @@ export default function App() {
           <img
             src={Cook}
             alt="cooking pic"
-            style={{ width: "500px", height: "300px" }}
+            style={{ width: "500px", height: "350px" }}
           />
         </div>
 
@@ -317,17 +348,25 @@ export default function App() {
           <img
             src={Prepare}
             alt="preparing pic"
-            style={{ width: "500px", height: "300px" }}
+            style={{ width: "500px", height: "350px" }}
           />
         </div>
       </div>
 
-      <div style={{ display: "flex", justifyContent: "space-between",backgroundColor:"#4E4E4E", marginTop: ".5%", marginBottom: "1%"}}>
-        <h2 style={{marginLeft: "6%", color: "white"}}>Drink</h2>
-        <h2 style={{color: "limegreen",marginRight: "6%", }}>+5 Points</h2>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          backgroundColor: "#4E4E4E",
+          marginTop: ".5%",
+          marginBottom: "1%",
+        }}
+      >
+        <h2 style={{ marginLeft: "1%", color: "white" }}>Drink</h2>
+        <h2 style={{ color: "limegreen", marginRight: "1%" }}>+5 Points</h2>
       </div>
-            {/* Start of Drink */}
-            <div
+      {/* Start of Drink */}
+      <div
         data-aos="fade-left"
         style={{
           display: "flex",
@@ -341,7 +380,7 @@ export default function App() {
             <img
               src={Drink}
               alt="drink pic"
-              style={{ width: "500px", height: "300px" }}
+              style={{ width: "500px", height: "350px" }}
             />
           </div>
         </div>
@@ -350,9 +389,86 @@ export default function App() {
           <img
             src={Alcohol}
             alt="alcohol drink"
-            style={{ width: "500px", height: "300px" }}
+            style={{ width: "500px", height: "350px" }}
           />
         </div>
+      </div>
+
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          backgroundColor: "#4E4E4E",
+          marginTop: ".5%",
+          marginBottom: "1%",
+        }}
+      >
+        <h2 style={{ marginLeft: "1%", color: "white" }}>Arrange</h2>
+        <h2 style={{ color: "limegreen", marginRight: "1%" }}>+5 Points</h2>
+      </div>
+
+      {/* Start of Arrange*/}
+      <div
+        data-aos="fade-right"
+        style={{
+          display: "flex",
+          justifyContent: "space-evenly",
+          alignItems: "center",
+        }}
+        className="section1"
+      >
+        <div>
+          <img
+            src={Arrange2}
+            alt="preparing pic"
+            style={{ width: "500px", height: "350px" }}
+          />
+        </div>
+        <div>
+          <img
+            src={Arrange}
+            alt="cooking pic"
+            style={{ width: "500px", height: "350px" }}
+          />
+        </div>
+      </div>
+
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          backgroundColor: "#4E4E4E",
+          marginTop: ".5%",
+          marginBottom: "1%",
+        }}
+      >
+        <h2 style={{ marginLeft: "1%", color: "white" }}>Lose a Plant</h2>
+        <h2 style={{ color: "red", marginRight: "1%" }}>-10 Points</h2>
+      </div>
+      {/* Start of Lose Points */}
+      <div
+        data-aos="fade-left"
+        style={{
+          display: "flex",
+          justifyContent: "space-evenly",
+          alignItems: "center",
+        }}
+        className="section2"
+      >
+          <div>
+            <img
+              src={DeadPlant}
+              alt="dead plant"
+              style={{ width: "500px", height: "350px" }}
+            />
+          </div>
+          <div>
+            <img
+              src={Gopher}
+              alt="gopher"
+              style={{ width: "500px", height: "350px" }}
+            />
+          </div>
       </div>
     </div>
   );
